@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "serve": "webpack-dev-server"
+    "start": "webpack-dev-server"
   },
   "dependencies": {
     "wasm-test": "^0.1.0"

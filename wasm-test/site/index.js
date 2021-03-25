@@ -1,3 +1,4 @@
 import("./node_modules/wasm-test/wasm_test.js").then((js) => {
-    js.greet("from Rust!");
+    let result = js.greet("Anders");
+    console.log(result);
 });
